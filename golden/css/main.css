@@ -1,0 +1,171 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+h1,h2,h3,h4,h5,h6,p{
+	padding: 0;
+	margin: 0;
+}
+header{
+	background-image: url(../img/first-bg.jpg);
+	background-repeat: no-repeat;
+ 
+	background-size: cover; 
+	width: 100%;
+	height: 700px;
+ 
+	
+}
+ .container{
+	 display: flex;
+	 justify-content: space-around;
+	 align-items: center;
+     flex-wrap: wrap;
+     
+ }
+ nav .menu{
+ display: flex;
+
+ }
+ .menu li{
+	padding: 10px;
+	list-style: none;
+ }
+ .menu a{
+	 text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	
+ }
+ .menu a:hover{
+	border-bottom: 3px solid #fed136;
+ }
+.title-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 170px;
+	 
+}
+.title-first p{
+	 color: #fff;
+	 font-family: "Arial MT";
+	 font-size: 40px;
+	 font-weight: 400;
+	 text-transform: uppercase;
+	 /* Text style for "W, elcome" */
+	 letter-spacing: -1px;
+	 text-align: center;
+	 padding: 20px;
+}
+.title-first h1{
+	 color: #fff;
+	 text-align: center;
+	 font-family: "Arial - Bold MT";
+	 font-size: 70px;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 letter-spacing: -1.88px;
+	}
+.btn{
+	width: 200px;
+	background-color: #fed136;
+	border-radius: 3px;
+	padding: 20px 0;
+	text-align: center;
+	margin-top: 70px;
+	}
+.btn a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #484543;
+	font-size: 18px;
+	font-weight: bold;
+	}
+ 
+.title{
+	text-align: center;
+	padding-top: 115px;
+	margin-bottom: 50px;
+}
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	
+}
+p{
+	color: #777777;
+	}
+
+#section{
+		height: 600px;
+	}
+.container1{
+	text-align: center;
+	display: flex;
+	justify-content:space-around;
+	margin: 0 200px 70px 200px;
+}
+.container1 h3{
+ font-family: "Arial - Bold MT";
+font-size: 18px;
+font-weight: bold;
+ padding: 15px;
+ 
+/* Text style for "E, -Commer" */
+ 
+}
+.container1 p{
+	color: #777777;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	/* Text style for "P, roin ia" */
+	letter-spacing: -0.35px;
+}
+.img1{
+ padding: 20px;
+ 
+
+} 
+#portfolio{
+	background-color: #f7f7f7;
+  padding-bottom: 120px;
+}
+#about-us p{
+color: #777777;
+font-family: "Arial MT";
+font-size: 14px;
+font-weight: 400;
+/* Text style for "P, roin ia" */
+letter-spacing: -0.35px;
+}
+.container2{
+	display: flex;
+	 flex-direction: column;
+align-items:center; 
+ 
+}
+.img2{
+	display: flex;
+ align-items: center;
+	 padding: 10px;
+}
+.img2 div{
+	padding: 20px;
+}
+footer{
+ margin-top: 40px;
+	margin-bottom: 100px;
+	color: #555555;
+font-family: "Arial MT";
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+/* Text style for "© Copyrigh" */
+letter-spacing: -0.35px;
+}

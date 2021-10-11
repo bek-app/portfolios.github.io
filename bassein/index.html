@@ -1,0 +1,103 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Slick слайдер</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<!-- Оболочка для демонстрации -->
+	<header class="header">
+		<div class="container">
+			<div class="header__menu">
+				<div class="nav">
+					<ul class="navbar">
+						<li><a href="#">Главная</a> </li>
+						<li><a href="#">Товары</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<a href="#" class="logo">
+						<img src="img/logo.png" alt="">
+					</a>
+					<div class="contacts">
+						<a href="#">+7 727 368 83 56 </a>
+						<a href="#"> +7 771 964 36 50</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__desc">
+				<h1 class="header__title">Строительство бассейнов
+
+				</h1>
+				<p class="header__text">
+					<span> Полный спект работ:</span> от проектирования и сдачи “под ключ” до обслуживания <br>
+					или реконструкции вашего бассейна, а также большой выбор товаров
+				</p>
+				<a href="#" class="header__btn">Оставить заявку</a>
+
+			</div>
+			</div>
+	</header>
+
+	<div class="container">
+		<div class="slider__title">
+			<h1>наши работы</h1>
+		</div>
+
+		<div class="slider">
+			<div class="slider__item filter">
+				<img src="img/1.png" alt="">
+			</div>
+			<div class="slider__item">
+				<img src="img/2.png" alt="">
+			</div>
+			<div class="slider__item filter">
+				<img src="img/3.png" alt="">
+			</div>
+			<div class="slider__item filter">
+				<img src="img/3.png" alt="">
+
+			</div>
+		</div>
+		</div>
+		<div class="money">
+			<div class="container">
+				<h1 class="money__title">сколько будет стоить бассейн?</h1>
+				<p class="money__text">Ответьте на несколько вопросов и наши специалисты отправят вам смету  <br>
+					в течении <span class="money__text-bold"> 1 рабочего дня</span></p>
+					<div class="money__block">
+						<div class="money__block-form">
+							<input type="text"> <br>
+							<input type="text" name="" id="">
+
+						</div>
+						<div class="money__block-img">
+							
+						</div>
+
+					</div>
+			</div>
+		</div>
+	
+
+		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<!-- Подключаем слайдер Slick -->
+		<script src="js/slick.min.js"></script>
+		<!-- Подключаем файл скриптов -->
+		<script src="js/script.js"></script>
+
+</body>
+
+</html>
